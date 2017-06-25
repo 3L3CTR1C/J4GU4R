@@ -98,7 +98,7 @@ function decodeOrderHash(hash, orientation) {
  * @return the inverted hash
  **/
 function invert(hash) {
-    return hash;
+    return hash.split("").reverse().join("");
 }
 
 /**
